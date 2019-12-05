@@ -45,6 +45,7 @@ public class Ass26Sep {
 		//Anagram Silent=Listen
 		boolean isAnagram=false;
 		String str1=sc.next(); char[] c1= str1.toLowerCase().toCharArray();
+		
 		System.out.println("Enter second string :");
 		String str2=sc.next(); char[] c2= str2.toLowerCase().toCharArray();
 		if( str1.length()!= str2.length())
